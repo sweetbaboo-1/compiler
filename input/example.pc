@@ -1,0 +1,26 @@
+function char example() 
+{
+  int i = 0;
+  char c = 'c';
+  float f = 0.01;
+  bool b = true;
+  string s = "hello world!";
+
+  while (b) 
+  {
+    i = i + 1;
+    if (i == 10) 
+    {
+      b = false;
+    }
+  }
+  b = !b;
+  b = b || false;
+  b = b != b;
+  return c;
+}
+
+function void main() 
+{
+  example();
+}

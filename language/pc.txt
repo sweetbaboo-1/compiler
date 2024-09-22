@@ -1,0 +1,41 @@
+This is the PC programming language. 
+
+It is a strongly typed language with a few primitives.
+
+Primitives:
+  int
+  char
+  float
+  bool
+  byte
+
+Example Program:
+  function char example() {
+    int i = 0;
+    char c = 'c';
+    float f = 0.01;
+    bool b = true;
+    byte bb = 0xff;
+
+    while(b) {
+      i = i + 1;
+      if(i == 10) {
+        b = false;
+      }
+    }
+    return c;
+  }
+
+  void main() {
+    example();
+  }
+
+Keywords:
+  all primitives
+  function
+  return
+  while
+  if
+  else
+  operators: +, -, *, /, =, ==, ||, &&, >, <, >=, <=
+  

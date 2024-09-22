@@ -1,0 +1,9 @@
+source file feeds into lexer
+
+lexer outputs tokens, tokens are the word from the source and a position as to where it was found
+
+the tokens to go a parser, which creates an AST (abstract syntax tree)
+
+AST feeds to code gen, which is what creates the ASM
+
+ASM to linker
